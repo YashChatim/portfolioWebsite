@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace portfolioWebsite.Controllers
 {
-    public class AboutMeController : Controller
+    public class ContactController : Controller
     {
-        public IActionResult AboutMe()
+        public IActionResult Contact()
         {
             return View();
         }
