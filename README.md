@@ -15,4 +15,7 @@ Git command - git clone https://github.com/YashChatim/portfolioWebsite.git
 Visual Studio - IDE (Integrated development environment)  
 .NET -  Developer platform  
 C# - Programming language  
-MVC (Model–view–controller) - Software architectural pattern    
+MVC (Model–view–controller) - Software architectural pattern  
+Razor - Markup syntax  
+Azure - Cloud service to deploy website
+CI/CD (Continuous integration/Continuous deployment)  
