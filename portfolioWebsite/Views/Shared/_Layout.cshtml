@@ -47,11 +47,17 @@
         </main>
     </div>
 
-    <footer class="footer" style="text-align: center">
+    <footer class="footer" style="text-align: end">
         <div class="container">
-            <a href="https://www.linkedin.com/in/yash-chatim-a2624b174/">LinkedIn</a>
-            <a href="https://www.facebook.com/yash.chatim">Facebook</a>
-            <a href="https://www.instagram.com/yashie_kun/">Instagram</a>
+            <a href="https://www.linkedin.com/in/yash-chatim-a2624b174/">
+                <img class="social" src="~/images/linkedin.png" />
+            </a>
+            <a href="https://www.facebook.com/yash.chatim">
+                <img class="social" src="~/images/facebook.png" />
+            </a>
+            <a href="https://www.instagram.com/yashie_kun/">
+                <img class="social" src="~/images/instagram.png" />
+            </a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -60,3 +66,13 @@
     @RenderSection("Scripts", required: false)
 </body>
 </html>
+
+<style>
+    .social {
+        margin-right: 2%;
+        padding-bottom: 2%;
+        height: 5%;
+        width: 5%;
+        border-radius: 10%;
+    }
+</style>
