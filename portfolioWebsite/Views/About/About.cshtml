@@ -55,33 +55,40 @@
         color: white;
     }
 
-    h2 {
+    .grid-row h2 {
         display: inline-block;
         border-bottom: 1px dashed red;
     }
 
-    p {
-        margin-bottom: 0;
-    }
-
-    img {
-        border-radius: 5%;
-    }
+    .grid-row p { margin-bottom: 0; }
+    .grid-column img { border-radius: 5%; }
 
     .grid-container {
         display: grid;
         grid-template-columns: 50% 50%;
     }
 
-    .grid-left {
-        text-align: center;
+    .grid-left { text-align: center; }
+    .grid-right { padding-left: 5%; }
+    .grid-row { margin-bottom: 5%; }
+
+    @@media (max-width: 992px) {
+        .grid-column img {
+            height: 312px;
+            width: 312px;
+        }
     }
 
-    .grid-right {
-        padding-left: 5%;
+    @@media (max-width: 768px) {
+        .grid-column img {
+            height: 240px;
+            width: 240px;
+        }
     }
 
-    .grid-row {
-        margin-bottom: 5%;
+    @@media (max-width: 576px) {
+        .grid-container {
+            display: block;
+        }
     }
 </style>
