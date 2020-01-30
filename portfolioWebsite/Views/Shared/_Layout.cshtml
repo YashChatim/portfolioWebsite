@@ -47,7 +47,7 @@
         </main>
     </div>
 
-    <footer class="footer" style="text-align: end">
+    <footer class="footer">
         <div class="container">
             <a href="https://www.linkedin.com/in/yash-chatim-a2624b174/">
                 <img class="social linkedin" src="~/images/linkedin.png" />
@@ -68,9 +68,9 @@
 </html>
 
 <style>
-    .nav-item:hover {
-        background-color: darkgray;
-    }
+    .nav-item:hover { background-color: darkgray; }
+
+    .footer { text-align: end; }
 
     .social {
         margin: 0 2% 2% 0;
@@ -83,5 +83,9 @@
         height: 7%;
         width: 7%;
         border: 1px solid yellow;
+    }
+
+    @@media (max-width: 768px) {
+        .footer { text-align: center; }
     }
 </style>
